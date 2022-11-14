@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    font-family: "Nunito";
+    justify-content: center;
+    height: 60px;
+}
+.feed {
+    font-family: "Nunito";
+    background-color: lightgrey;
+    margin: 0;
+    padding: 30px;
+}
+.post {
+    background-color: white;
+    height: 525px;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.postheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    margin: 0px;
+    padding: 10px;
+}
+.postfooter {
+    text-align: justify;
+    padding: 10px;
+}
+.postfooter p {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}
